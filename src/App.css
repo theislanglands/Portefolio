@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.Content-header {
+  text-align: left;
+  color: blue;
+}
+
+.Content {
+  text-align: left;
+}
+
+

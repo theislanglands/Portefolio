@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import NavigationComponent from './components/navbar/NavigationComponent';
+import About from './components/about/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -8,9 +8,7 @@ function App() {
     
     <div className="App">
       <NavigationComponent></NavigationComponent>
-      <header className="App-header">
-        
-      </header>
+      <About></About>
     </div>
   );
 }
