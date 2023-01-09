@@ -39,7 +39,9 @@
 
 .Content-header {
   text-align: left;
-  color: blue;
+  font-size: larger ;
+  color: #123B84;
+  margin-bottom: 0.2rem;
 }
 
 .Content {
@@ -47,5 +49,15 @@
   white-space: pre-line;
 }
 
+.navigation {
+  min-height: 100px;
+  margin-bottom: 50px;
+}
 
-
+.theis {
+  margin-top: 100px;
+}
+.navigation .navbar-brand {
+  color: #123B84;
+  font-size:2rem;
+}
