@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col'
 import './About.css'
 import Content from './about.json';
 
+
 const About = () => {
   return (
     <Container>
@@ -12,7 +13,7 @@ const About = () => {
             <Col>
                 <div className="Content-header">About</div>
                 <div className="Content">
-                    {Content.text}
+                        {Content.text}
                 </div>
             </Col>
             <Col>
