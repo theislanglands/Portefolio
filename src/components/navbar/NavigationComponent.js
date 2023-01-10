@@ -5,7 +5,7 @@ import './NavigationComponent.css';
 import linkedIn from '../../assets/in_black.png';
 import github from '../../assets/github-mark.png';
 import {LinkContainer} from 'react-router-bootstrap'
-import { Outlet, Link } from "react-router-dom";
+
 
 
 function NavigationComponent() {

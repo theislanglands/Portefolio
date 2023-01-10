@@ -62,4 +62,35 @@
 /* NoPage */
 .error {
   text-align: center;
+  justify-content: center;
 }
+
+/* contact */
+.contact-container {
+  display: inline-flex;
+  align-items: center;
+  margin-left: calc(-26px + 4.5vmin);
+}
+
+.contact-icon img {
+  width: calc(12px + 2vmin);
+  height: calc(12px + 2vmin);
+  margin-right: 3px;
+
+}
+
+.contact-text {
+  padding-left: 10px;
+  font-size:4.2vmin;
+  float: right;
+  text-align: left;
+  justify-content: left;
+  padding-top: calc(16px + 0.2vmin);
+}
+
+.contact-general {
+  align-items: left;
+  justify-content: left;
+  
+}
+
