@@ -50,10 +50,16 @@
 .navigation .navbar-brand {
   color: #123B84;
   font-size:2rem;
+
 }
 
 .navigation {
   min-height: 7rem;
   margin-bottom: 3rem;
   background-color: #e7e7e7;
+}
+
+/* NoPage */
+.error {
+  text-align: center;
 }
