@@ -7,7 +7,7 @@ import github from '../../assets/github-mark.png';
 
 function NavigationComponent() {
   return (
-    <Navbar bg="light" expand="lg" className="navigation">
+    <Navbar expand="lg" className="navigation">
       <Container>
         <Navbar.Brand href="#home">Theis Juul Langlands</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
