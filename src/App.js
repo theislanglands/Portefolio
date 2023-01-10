@@ -1,14 +1,24 @@
 import './App.css';
-// import NavigationComponent from './components/navbar/NavigationComponent';
-// import About from './components/about/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Layout from './pages/Layout';
 import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <Home></Home>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
   );
 }
 

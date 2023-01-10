@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col'
 import './About.css'
 import Content from './about.json';
 import theis from '../../assets/Theis_oval.png';
-import github from '../../assets/github-mark.png';
 
 const About = () => {
   return (

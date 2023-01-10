@@ -6,7 +6,6 @@ import About from '../components/about/About'
 const Home = () => {
   return (
     <div className="home">
-        <NavigationComponent></NavigationComponent>
         <About></About>
     </div>
   )
