@@ -10,7 +10,6 @@ const About = () => {
     <Container>
         <Row>
             <Col>
-                <div className="Content-header">About</div>
                 <div className="Content">
                     {Content.text}
                 </div>

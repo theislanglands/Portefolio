@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -39,6 +33,7 @@
 .Content {
   text-align: left;
   white-space: pre-line;
+  margin-top: 2rem;
 }
 
 .theis {
@@ -46,11 +41,13 @@
 }
 
 /* Navigation */
-
 .navigation .navbar-brand {
   color: #123B84;
   font-size:2rem;
-
+  
+}
+.navigation .navbar-brand:hover { 
+  color: #123B84;
 }
 
 .navigation {
@@ -69,7 +66,7 @@
 .contact-container {
   display: inline-flex;
   align-items: center;
-  margin-left: calc(-26px + 4.5vmin);
+  margin-left: calc(-29px + 4vmin);
 }
 
 .contact-icon img {
@@ -91,6 +88,7 @@
 .contact-general {
   align-items: left;
   justify-content: left;
+  margin-top: 12vmin;
   
 }
 
