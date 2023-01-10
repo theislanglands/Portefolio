@@ -30,11 +30,11 @@ function NavigationComponent() {
           </Nav>
 
           <div>
-          <a href="#linkedin" target="_blank">
-            <img className="links" src={linkedIn} alt='LinkedIn' width="30" height="30"/>
+          <a href="https://www.linkedin.com/in/theis-langlands-203a7545/" target="_blank">
+            <img className="links" src={linkedIn} alt='LinkedIn link' width="30" height="30"/>
           </a>
-          <a href="#github" target="_blank">
-            <img src={github} alt='LinkedIn' width="30" height="30"/>
+          <a href="https://github.com/theislanglands" target="_blank">
+            <img src={github} alt='Github link' width="30" height="30"/>
           </a>
           </div>
         </Navbar.Collapse>
