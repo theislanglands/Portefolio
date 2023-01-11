@@ -60,7 +60,7 @@ const Projects = () => {
                     <div>
                         <Card style={{ width: '22rem' }}>
                             <Card.Body>
-                                <Card.Title style={{ fontSize: '1rem' }}>
+                                <Card.Title className="cardTitle" style={{ fontSize: '1rem' }}>
                                     <Row>
                                         <Col xs={9}>
                                         {projects[1].title}
@@ -72,7 +72,7 @@ const Projects = () => {
                                         </Col>
                                     </Row>
                                 </Card.Title>
-                                <Card.Text style={{ fontSize: '0.8rem' }}>
+                                <Card.Text className="card-text">
                                     <p>{projects[1].description}</p>
                                     <div>
                                         {getTechs()}
