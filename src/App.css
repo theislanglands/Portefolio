@@ -43,7 +43,7 @@
 /* Navigation */
 .navigation .navbar-brand {
   color: #123B84;
-  font-size:2rem;
+  font-size:calc(10px + 4vmin);
   
 }
 .navigation .navbar-brand:hover { 
@@ -92,3 +92,7 @@
   
 }
 
+/* contact */
+.project-icons {
+  margin-right: calc(4px + 0.5vmin);
+}

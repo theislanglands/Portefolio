@@ -4,7 +4,7 @@
         "title": "BattleShips Desktopgame",
         "year": 2020,
         "description": "Fun little dektopgame, created to exersize my Java muscles, including AI for computer opponent.",
-        "github": "github URL",
+        "github": "https://github.com/",
         "link": "link URL",
         "tech": [
             "java", "javaFX"
@@ -14,7 +14,7 @@
     {
         "id": 2,
         "title": "Personal Portefolio homepage",
-        "year": 2020,
+        "year": 2023,
         "description": "Basic webpage, showing my programming training, created with React to try it out.",
         "github": "github URL",
         "link": "link URL",
