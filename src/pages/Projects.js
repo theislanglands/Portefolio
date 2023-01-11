@@ -6,7 +6,7 @@ import linkicon from '../assets/box-arrow-up-right.svg';
 import githubicon from '../assets/github-mark.png';
 
 
-function getIcons(props) {
+function getIcons() {
     let github
     let link
 
@@ -19,7 +19,7 @@ function getIcons(props) {
         </>
         );
     }
-    if (props[0].link) {
+    if (projects[0].link) {
         link = (
         <>
             <a href="#link fto linkedin" target={"_blank"}>
@@ -31,6 +31,19 @@ function getIcons(props) {
 
     return (
         <>{link}{github}</>
+    );
+}
+
+function getTechs() {
+    let techs = projects[1].tech;
+    
+    return (
+        <div className="techs">
+           {techs.map((tech) =>
+           (
+            <div className="tech">{tech}</div>
+           ))}
+        </div>
     );
 }
 
@@ -54,17 +67,17 @@ const Projects = () => {
                                         </Col>
                                         <Col>
                                             <div>
-                                                {getIcons(projects)}
+                                                {getIcons()}
                                             </div>
                                         </Col>
                                     </Row>
-                                    
-                                    
                                 </Card.Title>
                                 <Card.Text style={{ fontSize: '0.8rem' }}>
                                     <p>{projects[1].description}</p>
+                                    <div>
+                                        {getTechs()}
+                                    </div>
                                     
-                                    {projects[1].tech[2]}
                                     </Card.Text>
                             </Card.Body>
                         </Card>

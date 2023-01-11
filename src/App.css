@@ -92,7 +92,15 @@
   
 }
 
-/* contact */
+/* projects */
 .project-icons {
   margin-right: calc(4px + 0.5vmin);
+}
+
+.techs {
+  display:inline-flex;
+}
+
+.tech {
+  padding-right: calc(3px + 1vmin);
 }
