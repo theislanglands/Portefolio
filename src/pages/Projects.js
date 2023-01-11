@@ -6,23 +6,23 @@ import linkicon from '../assets/box-arrow-up-right.svg';
 import githubicon from '../assets/github-mark.png';
 
 
-function getIcons() {
+function getIcons(props) {
     let github
     let link
 
-    if (projects[0].github) {
+    if (projects[props].github) {
         github = (
         <>
-        <a href={projects[0].github} target={"_blank"}>
+        <a href={projects[props].github} target={"_blank"}>
             <img className="project-icons" src={githubicon} height="20" width="20" align="right" />
         </a>
         </>
         );
     }
-    if (projects[0].link) {
+    if (projects[props].link) {
         link = (
         <>
-            <a href="#link fto linkedin" target={"_blank"}>
+            <a href={projects[props].link} target={"_blank"}>
                 <img className="project-icons" src={linkicon} height="20" width="20" align="right" />
             </a>         
         </>
@@ -34,8 +34,8 @@ function getIcons() {
     );
 }
 
-function getTechs() {
-    let techs = projects[1].tech;
+function getTechs(props) {
+    let techs = projects[props].tech;
     
     return (
         <div className="techs">
@@ -47,6 +47,36 @@ function getTechs() {
     );
 }
 
+function getCard(props) {
+    return (
+        <div>
+                        <Card style={{ width: '22rem' }}>
+                            <Card.Body>
+                                <Card.Title className="cardTitle" style={{ fontSize: '1rem' }}>
+                                    <Row>
+                                        <Col xs={9}>
+                                        {projects[props].title}
+                                        </Col>
+                                        <Col>
+                                            <div>
+                                                {getIcons(props)}
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </Card.Title>
+                                <Card.Text className="card-text">
+                                    <p>{projects[props].description}</p>
+                                    <div>
+                                        {getTechs(props)}
+                                    </div>
+                                    </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+
+    )
+}
+
 const Projects = () => {
     return (
         
@@ -54,42 +84,18 @@ const Projects = () => {
             <Row>
                 <Col>
                     <div className="Content-header">
-        
                     </div>
-                    
                     <div>
-                        <Card style={{ width: '22rem' }}>
-                            <Card.Body>
-                                <Card.Title className="cardTitle" style={{ fontSize: '1rem' }}>
-                                    <Row>
-                                        <Col xs={9}>
-                                        {projects[1].title}
-                                        </Col>
-                                        <Col>
-                                            <div>
-                                                {getIcons()}
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </Card.Title>
-                                <Card.Text className="card-text">
-                                    <p>{projects[1].description}</p>
-                                    <div>
-                                        {getTechs()}
-                                    </div>
-                                    
-                                    </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        {projects.map( (project) => (
+                        <div><p>{getCard(project.id)}</p></div>
+                    ))}
                     </div>
-
+              
                 </Col>
             </Row>
         </Container>
     )
 }
-
-
 
 export default Projects
 
