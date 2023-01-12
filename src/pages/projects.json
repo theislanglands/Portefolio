@@ -13,13 +13,25 @@
 
     {
         "id": 1,
-        "title": "Personal Portefolio homepage",
+        "title": "Personal Portefolio homepage",    
         "year": 2023,
-        "description": "Basic webpage, showing my programming training, created with React to try it out.",
+        "description": "Basic webpage, showing my work, created with React to try it out.",
         "github": "github URL",
         "link": "link URL",
         "tech": [
             "javascript", "react", "bootstrap"
+        ]
+    },
+
+    {
+        "id": 2,
+        "title": "Dynamitskipperens sønner webpage",
+        "year": 2023,
+        "description": "Webpage for my skipper band, which connect to google calendar API",
+        "github": "github URL",
+        "link": "https://dynamitskipperenssoenner.dk/",
+        "tech": [
+            "HTML", "CSS", "bootstrap", "PHP"
         ]
     }
 

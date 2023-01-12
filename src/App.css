@@ -93,12 +93,26 @@
 }
 
 /* projects */
+.projects {
+  display: flex;
+  align-items: center;
+
+  flex-flow: row wrap;
+  justify-content:space-evenly;
+
+}
+
+.card {
+  margin: 2px
+}
+
 .project-icons {
   margin-right: calc(4px + 0.5vmin);
 }
 
 .techs {
-  display:inline-flex;
+  display: flex;
+  flex-direction: row;
 }
 
 .tech {
@@ -112,5 +126,3 @@
   font-size: 0.8rem;
   padding-top: 10px;
 }
-
-
