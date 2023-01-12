@@ -4,9 +4,6 @@ import projects from './projects.json';
 import Card from 'react-bootstrap/Card';
 import linkicon from '../assets/box-arrow-up-right.svg';
 import githubicon from '../assets/github-mark.png';
-import ListGroup from 'react-bootstrap/ListGroup';
-
-
 
 function getIcons(props) {
     let github
@@ -52,7 +49,7 @@ function getTechs(props) {
 function getCard(props) {
     return (
         <div>
-            <Card className="project-card" style={{ width: '22rem', height: '10rem' }}>
+            <Card className="project-card" style={{ width: '22rem', height: '12rem' }}>
                 <Card.Body>
                     <Card.Title className="cardTitle" style={{ fontSize: '1rem' }}>
                         <Row>
@@ -65,13 +62,19 @@ function getCard(props) {
                                 </div>
                             </Col>
                         </Row>
+                        <Row>
+                            <div className="card-year">
+                                <p>({projects[props].year})</p>
+                            </div>
+                        </Row>
                     </Card.Title>
                     <Card.Text className="card-text">
                         <p>{projects[props].description}</p>
-                        <div>
+                        
+                    </Card.Text>
+                    <div className="card-techs">
                             {getTechs(props)}
                         </div>
-                    </Card.Text>
                 </Card.Body>
             </Card>
         </div>

@@ -1,38 +1,118 @@
 [
     {
         "id": 0,
-        "title": "BattleShips Desktopgame",
-        "year": 2020,
-        "description": "Fun little dektopgame, created to exersize my Java muscles, including AI for computer opponent.",
-        "github": "https://github.com/",
-        "link": "https://www.youtube.com",
+        "title": "Battle Ships v2",
+        "year": 2021,
+        "description": "Fun little desktop game, created to exersize my Java muscles, including AI for computer opponent",
+        "github": "https://github.com/theislanglands/Battleship",
+        "link": "https://youtu.be/aMC3QBAm_yw",
         "tech": [
             "java", "javaFX"
         ]
     },
-
     {
         "id": 1,
         "title": "Personal Portefolio homepage",    
         "year": 2023,
         "description": "Basic webpage, showing my work, created with React to try it out.",
-        "github": "github URL",
+        "github": "https://github.com/theislanglands/Portefolio",
         "link": "link URL",
         "tech": [
             "javascript", "react", "bootstrap"
         ]
     },
-
     {
         "id": 2,
-        "title": "Dynamitskipperens sønner webpage",
-        "year": 2023,
+        "title": "Webpage for Dynamitskipperens sønner",
+        "year": 2021,
         "description": "Webpage for my skipper band, which connect to google calendar API",
-        "github": "github URL",
+        "github": "https://github.com/theislanglands/dynamitweb",
         "link": "https://dynamitskipperenssoenner.dk/",
         "tech": [
-            "HTML", "CSS", "bootstrap", "PHP"
+            "html", "css", "bootstrap", "php", "api"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "FilmGuru - React Native",
+        "year": 2022,
+        "description": "A small mobile application showing top movies based on genres for trying out React Native",
+        "github": "https://github.com/theislanglands/moviedatabase-exersize_react",
+        "tech": [
+            "javascript", "react native", "api"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "FilmGuru - Android",
+        "year": 2022,
+        "description": "A small mobile application showing movies and details for trying out android programming",
+        "github": "https://github.com/theislanglands/FilmGuru-android",
+        "tech": [
+            "kotlin"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "TV Credits",
+        "year": 2021,
+        "description": "A desktop application prototype designed to show credentials for TV2 Denmark productions. Group project for 2. semester of Software Engineering",
+        "github": "https://github.com/theislanglands/SemesterProject2-TV2",
+        "tech": [
+            "java", "javaFX", "postgres"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Tower Defence",
+        "year": 2022,
+        "description": "A classic tower defence game using LibGDX framework, OSGi components and artificial intelligence. Group project for 4th semester of Software Engineering: Intelligent Software Systems",
+        "github": "https://github.com/theislanglands/SemesterProject4",
+        "link": "https://www.youtube.com/watch?v=hRXR7nW7-dQ",
+        "tech": [
+            "java", "libgdx", "osgi", "ai"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "The Amazing Todo'er - PWA",
+        "year": 2022,
+        "description": "A small mobile application for adding and removing to-do's. Exersize in creating a PWA mobile application using React",
+        "github": "https://github.com/theislanglands/ToDo-App-PWA",
+        "link": "https://master--relaxed-tulumba-5a6ae2.netlify.app/",
+        "tech": [
+            "javascript", "react", "pwa"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "The Amazing Todo'er - Flutter",
+        "year": 2022,
+        "description": "A small mobile application for adding and removing to-do's. Exersize in creating a mobile application using Flutter",
+        "github": "https://github.com/theislanglands/ToDo-App-Flutter",
+        "tech": [
+            "flutter"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Media Acquisition Microservice",
+        "year": 2021,
+        "description": "Microservice for a music streaming platform, including storage, api and frontend. Group project for 3rd semester of Software Engineering: Interactive Distributed Software Systems",
+        "github": "https://github.com/theislanglands/SemesterProject3",
+        "tech": [
+            "python", "django", "html", "api", "docker"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Flighter",
+        "year": 2021,
+        "description": "Frontend for an application that will guide thorugh an airport - result of a design sprint. Group project 3rd semester - HCI coarse",
+        "github": "https://github.com/theislanglands/Flighter",
+        "link": "https://effortless-beijinho-d82c4e.netlify.app/",
+        "tech": [
+            "html", "css", "ux"
         ]
     }
-
 ]

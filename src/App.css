@@ -96,14 +96,17 @@
 .projects {
   display: flex;
   align-items: center;
-
   flex-flow: row wrap;
   justify-content:space-evenly;
-
 }
 
 .card {
   margin: 2px
+}
+
+.card-year {
+  font-size: smaller;
+  color:#123B84;
 }
 
 .project-icons {
@@ -117,12 +120,16 @@
 
 .tech {
   padding-right: calc(3px + 1vmin);
+}
+
+.card-techs{
   font-size: smaller;
   color:#123B84;
+  position: absolute;
+    bottom: 1rem;
 }
 
 .card-text {
   color:black;
   font-size: 0.8rem;
-  padding-top: 10px;
 }
