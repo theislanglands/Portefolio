@@ -44,7 +44,7 @@ function getIcons(props) {
         github = (
             <>
                 <a href={projects[props].github} target={"_blank"}>
-                    <img className="project-icons" src={githubicon} height="20" width="20" align="right" />
+                    <img className="project-icons" src={githubicon} rel="noreferrer" alt="project link to github" height="20" width="20" align="right" />
                 </a>
             </>
         );
@@ -53,7 +53,7 @@ function getIcons(props) {
         link = (
             <>
                 <a href={projects[props].link} target={"_blank"}>
-                    <img className="project-icons" src={linkicon} height="20" width="20" align="right" />
+                    <img className="project-icons" src={linkicon} rel="noreferrer" alt="link to project" height="20" width="20" align="right" />
                 </a>
             </>
         );
