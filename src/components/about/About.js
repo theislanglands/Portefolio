@@ -15,8 +15,9 @@ const About = () => {
                 </div>
             </Col>
             <Col>
-            <div className='theis'></div>
-            <img src={theis} alt='LinkedIn' height="300"/>
+            <div className='theis'>
+              <img src={theis} alt='LinkedIn'/>
+            </div>
             </Col>
         </Row>
     </Container>
