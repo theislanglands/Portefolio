@@ -7,11 +7,15 @@
   }
 
   .navigation .navbar-brand {
-    color: #112C40;
+    color: #123B84;;
     font-size:calc(20px + 1vw);
     white-space: pre-line;
   }
   .navigation .navbar-brand:hover { 
+    color: #123B84;
+  }
+
+  .navigation-brand {
     color: #123B84;
   }
   

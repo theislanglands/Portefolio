@@ -10,10 +10,12 @@ import {LinkContainer} from 'react-router-bootstrap'
 
 function NavigationComponent() {
   return (
-    <Navbar expand="lg" className="navigation">
+    <Navbar className="navigation" collapseOnSelect expand="lg">
       <Container>
         <LinkContainer to="/">
-        <Navbar.Brand>Theis Langlands</Navbar.Brand>
+          <Nav.Link>
+            <Navbar.Brand>Theis Langlands</Navbar.Brand>
+        </Nav.Link>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
