@@ -5,6 +5,28 @@ import Card from 'react-bootstrap/Card';
 import linkicon from '../assets/box-arrow-up-right.svg';
 import githubicon from '../assets/github-mark.png';
 
+
+const Projects = () => {
+    return (
+        <div>
+            <Container>
+                    <div className="Content-header">
+                        <p>My private projects so far...</p>
+                    </div>
+                    <div className="projects">
+                        {projects.map((project) => (
+                            <div>{getCard(project.id)}</div>
+                        ))}
+                    </div>
+                    <div className="Content-header">
+                        <p>University projects</p>
+                    </div>
+                
+            </Container>
+        </div>
+    )
+}
+
 function getIcons(props) {
     let github
     let link
@@ -70,47 +92,15 @@ function getCard(props) {
                     </Card.Title>
                     <Card.Text className="card-text">
                         <p>{projects[props].description}</p>
-                        
+
                     </Card.Text>
                     <div className="card-techs">
-                            {getTechs(props)}
-                        </div>
+                        {getTechs(props)}
+                    </div>
                 </Card.Body>
             </Card>
         </div>
     )
 }
 
-const Projects = () => {
-    return (
-        <div>
-        <Container>
-            <Row>
-                <Col>
-                    <div className="Content-header">
-                        <p>My works so far...</p>
-                    </div>
-                </Col>
-            </Row>
-            <div className="projects">
-{projects.map((project) => (
-    <div>{getCard(project.id)}</div>
-))}
-</div>
-
-
-
-        </Container>
-
-
-</div>
-    )
-}
-
 export default Projects
-
-/*
-                        {projects.map((project) => (
-                            <div><p>{getCard(project.id)}</p></div>
-                        ))}
-                        */

@@ -1,17 +1,19 @@
 [
     {
         "id": 0,
+        "uni": false,
         "title": "Battle Ships v2",
         "year": 2021,
         "description": "Fun little desktop game, created to exersize my Java muscles, including AI for computer opponent",
         "github": "https://github.com/theislanglands/Battleship",
         "link": "https://youtu.be/aMC3QBAm_yw",
         "tech": [
-            "java", "javaFX"
+            "java", "javafx"
         ]
     },
     {
         "id": 1,
+        "uni": false,
         "title": "Personal Portefolio homepage",    
         "year": 2023,
         "description": "Basic webpage, showing my work, created with React to try it out.",
@@ -23,6 +25,7 @@
     },
     {
         "id": 2,
+        "uni": false,
         "title": "Webpage for Dynamitskipperens sønner",
         "year": 2021,
         "description": "Webpage for my skipper band, which connect to google calendar API",
@@ -34,6 +37,7 @@
     },
     {
         "id": 3,
+        "uni": true,
         "title": "FilmGuru - React Native",
         "year": 2022,
         "description": "A small mobile application showing top movies based on genres for trying out React Native",
@@ -44,6 +48,7 @@
     },
     {
         "id": 4,
+        "uni": true,
         "title": "FilmGuru - Android",
         "year": 2022,
         "description": "A small mobile application showing movies and details for trying out android programming",
@@ -54,27 +59,30 @@
     },
     {
         "id": 5,
+        "uni": true,
         "title": "TV Credits",
         "year": 2021,
         "description": "A desktop application prototype designed to show credentials for TV2 Denmark productions. Group project for 2. semester of Software Engineering",
         "github": "https://github.com/theislanglands/SemesterProject2-TV2",
         "tech": [
-            "java", "javaFX", "postgres"
+            "java", "javafx", "postgres"
         ]
     },
     {
         "id": 6,
+        "uni": true,
         "title": "Tower Defence",
         "year": 2022,
         "description": "A classic tower defence game using LibGDX framework, OSGi components and artificial intelligence. Group project for 4th semester of Software Engineering: Intelligent Software Systems",
         "github": "https://github.com/theislanglands/SemesterProject4",
         "link": "https://www.youtube.com/watch?v=hRXR7nW7-dQ",
         "tech": [
-            "java", "libgdx", "osgi", "ai"
+            "java", "libgdx", "osgi"
         ]
     },
     {
         "id": 7,
+        "uni": true,
         "title": "The Amazing Todo'er - PWA",
         "year": 2022,
         "description": "A small mobile application for adding and removing to-do's. Exersize in creating a PWA mobile application using React",
@@ -86,6 +94,7 @@
     },
     {
         "id": 8,
+        "uni": true,
         "title": "The Amazing Todo'er - Flutter",
         "year": 2022,
         "description": "A small mobile application for adding and removing to-do's. Exersize in creating a mobile application using Flutter",
@@ -96,6 +105,7 @@
     },
     {
         "id": 9,
+        "uni": true,
         "title": "Media Acquisition Microservice",
         "year": 2021,
         "description": "Microservice for a music streaming platform, including storage, api and frontend. Group project for 3rd semester of Software Engineering: Interactive Distributed Software Systems",
@@ -106,13 +116,37 @@
     },
     {
         "id": 10,
+        "uni": true,
         "title": "Flighter",
         "year": 2021,
-        "description": "Frontend for an application that will guide thorugh an airport - result of a design sprint. Group project 3rd semester - HCI coarse",
+        "description": "Frontend for an application that will guide thorugh an airport - result of a design sprint. Group project 3rd semester - HCI course",
         "github": "https://github.com/theislanglands/Flighter",
         "link": "https://effortless-beijinho-d82c4e.netlify.app/",
         "tech": [
             "html", "css", "ux"
         ]
+    },
+    {
+        "id": 11,
+        "uni": true,
+        "title": "University Administration",
+        "year": 2021,
+        "description": "Management of departments and courses using the Laravel MVC framework implementing CRUD operations. Assignment of Web Technologies Course",
+        "github": "https://github.com/theislanglands/University-Manager",
+        "tech": [
+            "php", "laravel", "mysql", "html"
+        ]
+    },
+    {
+        "id": 12,
+        "uni": true,
+        "title": "Pet Shelter Auth",
+        "year": 2021,
+        "description": "Implementation of authentication and authorization features in existing Laravel application. Assignment for Web Technologies Course",
+        "github": "https://github.com/theislanglands/University-Manager",
+        "tech": [
+            "php", "laravel", "mysql"
+        ]
     }
 ]
+
