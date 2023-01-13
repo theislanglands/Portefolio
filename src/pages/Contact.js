@@ -19,7 +19,7 @@ const Contact = () => {
                 <Col xs={6}>
                     <div className="contact-container">
                         <div className="contact-icon">
-                            <img src={envelope} alt='mailTo' width="34" height="34" />
+                            <img src={envelope} alt='mailTo'/>
                         </div>
                         <div className="contact-text">
                             <p>theislanglands@gmail.com</p>
@@ -31,7 +31,7 @@ const Contact = () => {
                 <Col xs={6}>
                     <div className="contact-container">
                         <div className="contact-icon">
-                            <img src={phone} alt='phone' width="34" height="34" />
+                            <img src={phone} alt='phone' />
                         </div>
                         <div className="contact-text">
                             <p>(+45)&nbsp;22&nbsp;12&nbsp;06&nbsp;27</p>
@@ -44,28 +44,35 @@ const Contact = () => {
             <Row className="justify-content-center">
 
                 <Col xs={6}>
+                <a href="https://github.com/theislanglands" target="_blank" rel="noreferrer">
                     <div className="contact-container">
-                        <div className="contact-icon">
-                            <img src={github} alt='github' width="34" height="34" />
-                        </div>
-                        <div className="contact-text">
-                            <p>GitHub</p>
-                        </div>
+                            <div className="contact-icon">
+                                <img src={github} alt='github' />
+                            </div>
+                            <div className="contact-text">
+                                <p>GitHub</p>
+                            </div>     
                     </div>
+                    </a>
                 </Col>
 
             </Row>
 
             <Row className="justify-content-center">
                 <Col xs={6}>
+                <a href="https://www.linkedin.com/in/theis-langlands-203a7545/" target="_blank" rel="noreferrer">
+
                     <div className="contact-container">
                         <div className="contact-icon">
-                            <img src={linkedin} alt='linkedin' width="34" height="34" />
+                            <a>
+                            <img src={linkedin} alt='linkedin' />
+                            </a>
                         </div>
                         <div className="contact-text">
                             <p>LinkedIn</p>
                         </div>
                     </div>
+                    </a>
                 </Col>
             </Row>
             </div>

@@ -52,6 +52,14 @@
   margin-top: 6vh;
 }
 
+.contact-general a p {
+  color: black
+}
+
+.contact-general a p:hover {
+  color: #123B84;
+}
+
 /* projects */
 .projects {
   display: flex;
@@ -93,3 +101,5 @@
   color:black;
   font-size: 0.8rem;
 }
+
+

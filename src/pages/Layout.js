@@ -11,7 +11,6 @@ const Layout = () => {
     <NavigationComponent></NavigationComponent>
     <Outlet />
     </div>
-    
   );
 }
 
