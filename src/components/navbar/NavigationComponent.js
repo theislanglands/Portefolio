@@ -13,7 +13,7 @@ function NavigationComponent() {
     <Navbar expand="lg" className="navigation">
       <Container>
         <LinkContainer to="/">
-        <Navbar.Brand>Theis Juul Langlands</Navbar.Brand>
+        <Navbar.Brand>Theis Langlands</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+
+}
+
+.root {
+  background-color: whitesmoke
 }
 
 .Content-header {
@@ -10,10 +15,10 @@
 }
 
 .Content-subheader {
-  text-align: left;
+  text-align: center;
   font-size: medium;
   color: black;
-  margin-top: 0.6rem;
+  margin-top: 2rem;
 }
 
 /* NoPage */
