@@ -10,18 +10,27 @@ const Projects = () => {
     return (
         <div>
             <Container>
-                    <div className="Content-header">
-                        <p>My private projects so far...</p>
-                    </div>
-                    <div className="projects">
-                        {projects.map((project) => (
+                <div className="Content-header">
+                    <p>My work so far...</p>
+                </div>
+                <div className="Content-subheader">
+                    <p>Private projects</p>
+                </div>
+
+                <div className="projects">
+                    {projects.filter(project => project.uni === false).sort((firstProject, secondProject) => firstProject.year - secondProject.year).map((project) => (
                             <div>{getCard(project.id)}</div>
                         ))}
-                    </div>
-                    <div className="Content-header">
-                        <p>University projects</p>
-                    </div>
-                
+                </div>
+                <div className="Content-subheader">
+                    <p>University projects</p>
+                </div>
+                <div className="projects">
+                {projects.filter(project => project.uni === true).sort((firstProject, secondProject) => firstProject.year - secondProject.year).map((project) => (
+                        <div>{getCard(project.id)}</div>
+                    ))}
+                </div>          
+
             </Container>
         </div>
     )

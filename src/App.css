@@ -29,6 +29,13 @@
   margin-bottom: 0.2rem;
 }
 
+.Content-subheader {
+  text-align: left;
+  font-size: medium;
+  color: black;
+  margin-top: 0.6rem;
+}
+
 /* About */
 .Content {
   text-align: left;
