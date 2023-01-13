@@ -44,7 +44,7 @@ function getIcons(props) {
         github = (
             <>
                 <a href={projects[props].github} target={"_blank"}>
-                    <img className="project-icons" src={githubicon} rel="noreferrer" alt="project link to github" height="20" width="20" align="right" />
+                    <img className="project-icons" src={githubicon} rel="noreferrer" alt="project link to github" align="right" />
                 </a>
             </>
         );
@@ -53,7 +53,7 @@ function getIcons(props) {
         link = (
             <>
                 <a href={projects[props].link} target={"_blank"}>
-                    <img className="project-icons" src={linkicon} rel="noreferrer" alt="link to project" height="20" width="20" align="right" />
+                    <img className="project-icons" src={linkicon} rel="noreferrer" alt="link to project" align="right" />
                 </a>
             </>
         );
@@ -80,11 +80,11 @@ function getTechs(props) {
 function getCard(props) {
     return (
         <div>
-            <Card className="project-card" style={{ width: '22rem', height: '12rem' }}>
+            <Card className="project-card" style={{ width: '22rem', height: '13.5rem' }}>
                 <Card.Body>
                     <Card.Title className="cardTitle" style={{ fontSize: '1rem' }}>
                         <Row>
-                            <Col xs={9}>
+                            <Col xs={8}>
                                 {projects[props].title}
                             </Col>
                             <Col>

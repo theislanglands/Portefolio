@@ -69,7 +69,7 @@
 }
 
 .card {
-  margin: 2px
+  margin: 5px;
 }
 
 .card-year {
@@ -78,7 +78,9 @@
 }
 
 .project-icons {
-  margin-right: calc(4px + 0.5vmin);
+  margin-right: calc(4px);
+  width: 28px;
+  opacity: 70%;
 }
 
 .techs {
