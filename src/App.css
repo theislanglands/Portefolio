@@ -32,14 +32,14 @@
 }
 
 .contact-icon img {
-  width: calc(3px + 1vw);
-  height: calc(3px + 1vw);
+  width: calc(1rem + 0.8vw);
+  height: calc(1rem + 0.8vw);
   margin-right: 3px;
 }
 
 .contact-text {
   padding-left: 10px;
-  font-size: calc(10px + 0.5vw);
+  font-size: large;
   float: right;
   text-align: left;
   justify-content: left;

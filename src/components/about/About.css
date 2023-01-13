@@ -1,6 +1,3 @@
-.Content{
-    white-space: pre-line;
-}
 
 .about-header {
     color: #123B84;
@@ -11,6 +8,7 @@
     text-align: left;
     white-space: pre-line;
     margin-top: 2rem;
+    font-size: medium;
   }
   
 .theis {
