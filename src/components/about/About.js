@@ -8,10 +8,17 @@ import theis from '../../assets/Theis_oval.png';
 const About = () => {
   return (
     <Container>
+      <Row>
+        <Col>
+        <div className="Content-header">
+          {Content.header}
+        </div>
+        </Col>
+      </Row>
         <Row>
             <Col>
                 <div className="Content">
-                    {Content.text}
+                    {Content.textuk}
                 </div>
             </Col>
             <Col>

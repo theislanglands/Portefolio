@@ -2,3 +2,31 @@
     white-space: pre-line;
 }
 
+.about-header {
+    color: #123B84;
+    font-size: larger;
+}
+
+.Content {
+    text-align: left;
+    white-space: pre-line;
+    margin-top: 2rem;
+  }
+  
+.theis {
+margin-top: 11vh;
+margin-left: 0.5vw;
+}
+
+.theis img {
+width: 70vmin;
+}
+
+@media screen and (max-width: 700px){
+    .theis {
+        align-self: center;
+        justify-content: center;
+        align-content: center;
+    }
+}
+  
