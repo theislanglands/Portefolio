@@ -5,9 +5,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Layout from './pages/Layout';
 import Home from './pages/Home';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
-import NoPage from './pages/NoPage';
+import Projects from './pages/projects/Projects';
+import Contact from './pages/contact/Contact';
+import NoPage from './pages/noPage/NoPage';
 
 function App() {
   return (
