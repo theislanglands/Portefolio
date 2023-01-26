@@ -32,7 +32,7 @@ const Projects = () => {
                     ))}
                 </div>
                 <div className="Content-subheader">
-                    <p>Training</p>
+                    <p>Exercises</p>
                 </div>
                 <div className="projects">
                     {projects.filter(project => project.exersize).sort((firstProject, secondProject) => new Date(firstProject.date) - new Date(secondProject.date)).reverse().map((project) => (
