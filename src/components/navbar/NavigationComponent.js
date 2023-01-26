@@ -4,7 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import './NavigationComponent.css';
 import linkedIn from '../../assets/in_black.png';
 import github from '../../assets/github-mark.png';
-import {LinkContainer} from 'react-router-bootstrap'
+import {LinkContainer} from 'react-router-bootstrap';
+import resume from '../../assets/download-resume-round.png';
 
 
 
@@ -29,11 +30,15 @@ function NavigationComponent() {
           </Nav>
 
           <div className="navigation-icons">
+
           <a href="https://www.linkedin.com/in/theis-langlands-203a7545/" target="_blank" rel="noreferrer">
-            <img className="links" src={linkedIn} alt='LinkedIn link' />
+            <img className="links" src={linkedIn} alt='LinkedIn link' title="LinkedIn" />
           </a>
           <a href="https://github.com/theislanglands" target="_blank" rel="noreferrer">
-            <img src={github} alt='Github link' />
+            <img src={github} alt='Github link' title="GitHub"/>
+          </a>
+          <a href="documents/CV-Theis_Langlands.pdf" target="_blank" rel="noreferrer">
+            <img className="links" src={resume} alt='Download resume' title="Resume"/>
           </a>
           </div>
         </Navbar.Collapse>

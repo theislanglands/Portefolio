@@ -20,6 +20,12 @@ const About = () => {
                 <div className="Content">
                     {Content.textuk}
                 </div>
+                <div className="resume">
+                  <p>Grab a copy of my&nbsp; 
+                <a href="documents/CV-Theis_Langlands.pdf" target="_blank" rel="noreferrer">
+             resume
+          </a></p>
+          </div>
             </Col>
             <Col>
             <div className='theis'>
@@ -27,6 +33,7 @@ const About = () => {
             </div>
             </Col>
         </Row>
+        
     </Container>
   )
 }

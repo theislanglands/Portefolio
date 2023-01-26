@@ -1,16 +1,22 @@
 
-.about-header {
-    color: #123B84;
-    font-size: larger;
-}
-
 .Content {
     text-align: left;
     white-space: pre-line;
     margin-top: 2rem;
     font-size: medium;
   }
-  
+
+.resume {
+    margin-top: 1.5rem;
+}
+
+.resume a {
+    color:#123B84;;
+}
+.resume a:hover { 
+    color: rgb(68, 68, 68);
+  }
+
 .theis {
 margin-top: 11vh;
 margin-left: 0.5vw;

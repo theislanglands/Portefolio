@@ -1,0 +1,35 @@
+/* contact */
+.contact-container {
+    display: inline-flex;
+    align-items: center;
+    margin-left: calc(14-1.1vw);
+  }
+  
+  .contact-icon img {
+    width: calc(1rem + 0.8vw);
+    height: calc(1rem + 0.8vw);
+    margin-right: 3px;
+  }
+  
+  .contact-text {
+    padding-left: 10px;
+    font-size: large;
+    float: right;
+    text-align: left;
+    justify-content: left;
+    padding-top: calc(16px + 0.2vh);
+  }
+  
+  .contact-general {
+    align-items: left;
+    justify-content: left;
+    margin-top: 6vh;
+  }
+  
+  .contact-general a p {
+    color: black
+  }
+  
+  .contact-general a p:hover {
+    color: #123B84;
+  }
