@@ -4,6 +4,7 @@
         "uni": false,
         "title": "Battle Ships v2",
         "year": 2021,
+        "date": "2021-6",
         "description": "Fun little desktop game, created to exersize my Java muscles, including AI for computer opponent",
         "github": "https://github.com/theislanglands/Battleship",
         "link": "https://youtu.be/aMC3QBAm_yw",
@@ -16,6 +17,7 @@
         "uni": false,
         "title": "Personal Portefolio homepage",    
         "year": 2023,
+        "date": "2023-1",
         "description": "Basic webpage, showing my work, created with React to try it out.",
         "github": "https://github.com/theislanglands/Portefolio",
         "link": "link URL",
@@ -28,6 +30,7 @@
         "uni": false,
         "title": "Webpage for Dynamitskipperens sønner",
         "year": 2021,
+        "date": "2021-8",
         "description": "Webpage for my skipper band, which connect to google calendar API",
         "github": "https://github.com/theislanglands/dynamitweb",
         "link": "https://dynamitskipperenssoenner.dk/",
@@ -41,6 +44,7 @@
         "exersize": true,
         "title": "FilmGuru - React Native",
         "year": 2022,
+        "date": "2022-9",
         "description": "A small mobile application showing top movies based on genres for trying out React Native",
         "github": "https://github.com/theislanglands/moviedatabase-exersize_react",
         "tech": [
@@ -53,6 +57,7 @@
         "exersize": true,
         "title": "FilmGuru - Android",
         "year": 2022,
+        "date": "2022-10",
         "description": "A small mobile application showing movies and details for trying out android programming",
         "github": "https://github.com/theislanglands/FilmGuru-android",
         "tech": [
@@ -64,6 +69,7 @@
         "uni": true,
         "title": "TV Credits",
         "year": 2021,
+        "date": "2021-6",
         "description": "A desktop application prototype designed to show credentials for TV2 Denmark productions. Group project for 2. semester of Software Engineering",
         "github": "https://github.com/theislanglands/SemesterProject2-TV2",
         "tech": [
@@ -75,11 +81,12 @@
         "uni": true,
         "title": "Tower Defence",
         "year": 2022,
+        "date": "2022-6",
         "description": "A classic tower defence game using LibGDX framework, OSGi components and artificial intelligence. Group project for 4th semester of Software Engineering: Intelligent Software Systems",
         "github": "https://github.com/theislanglands/SemesterProject4",
         "link": "https://www.youtube.com/watch?v=hRXR7nW7-dQ",
         "tech": [
-            "java", "libgdx", "osgi"
+            "java", "libgdx", "osgi", "junit"
         ]
     },
     {
@@ -88,6 +95,7 @@
         "exersize": true,
         "title": "The Amazing Todo'er - PWA",
         "year": 2022,
+        "date": "2022-10",
         "description": "A small mobile application for adding and removing to-do's. Exersize in creating a PWA mobile application using React",
         "github": "https://github.com/theislanglands/ToDo-App-PWA",
         "link": "https://master--relaxed-tulumba-5a6ae2.netlify.app/",
@@ -101,6 +109,7 @@
         "exersize": true,
         "title": "The Amazing Todo'er - Flutter",
         "year": 2022,
+        "date": "2022-11",
         "description": "A small mobile application for adding and removing to-do's. Exersize in creating a mobile application using Flutter",
         "github": "https://github.com/theislanglands/ToDo-App-Flutter",
         "tech": [
@@ -112,10 +121,11 @@
         "uni": true,
         "title": "Media Acquisition Microservice",
         "year": 2021,
+        "date": "2021-12",
         "description": "Microservice for a music streaming platform, including storage, api and frontend. Group project for 3rd semester of Software Engineering: Interactive Distributed Software Systems",
         "github": "https://github.com/theislanglands/SemesterProject3",
         "tech": [
-            "python", "django", "html", "api", "docker"
+            "python", "django", "api", "docker"
         ]
     },
     {
@@ -124,6 +134,7 @@
         "exersize": true,
         "title": "Flighter",
         "year": 2021,
+        "date": "2021-11",
         "description": "Frontend for an application that will guide thorugh an airport - result of a design sprint. Group project 3rd semester - HCI course",
         "github": "https://github.com/theislanglands/Flighter",
         "link": "https://effortless-beijinho-d82c4e.netlify.app/",
@@ -137,6 +148,7 @@
         "exersize": true,
         "title": "University Administration",
         "year": 2021,
+        "date": "2021-10",
         "description": "Management of departments and courses using the Laravel MVC framework implementing CRUD operations. Assignment of Web Technologies Course",
         "github": "https://github.com/theislanglands/University-Manager",
         "tech": [
@@ -149,10 +161,24 @@
         "exersize": true,
         "title": "Pet Shelter Auth",
         "year": 2021,
+        "date": "2021-11",
         "description": "Implementation of authentication and authorization features in existing Laravel application. Assignment for Web Technologies Course",
         "github": "https://github.com/theislanglands/University-Manager",
         "tech": [
             "php", "laravel", "mysql"
+        ]
+    },
+    {
+        "id": 13,
+        "uni": false,
+        "exersize": true,
+        "title": "Four in a row",
+        "year": 2023,
+        "date": "2023-1",
+        "description": "Classic game Console application for training basic C# and NUnit",
+        "github": "https://github.com/theislanglands/forInARow",
+        "tech": [
+            "c#", "nunit"
         ]
     }
 ]

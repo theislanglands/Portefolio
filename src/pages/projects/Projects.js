@@ -19,7 +19,7 @@ const Projects = () => {
                 </div>
 
                 <div className="projects">
-                    {projects.filter(project => project.uni === false).sort((firstProject, secondProject) => firstProject.year - secondProject.year).map((project) => (
+                    {projects.filter(project => !project.uni && !project.exersize).sort((firstProject, secondProject) => new Date(firstProject.date) - new Date(secondProject.date)).reverse().map((project) => (
                             <div>{getCard(project.id)}</div>
                         ))}
                 </div>
@@ -27,15 +27,15 @@ const Projects = () => {
                     <p>University projects</p>
                 </div>
                 <div className="projects">
-                {projects.filter(project => project.uni && !project.exersize).sort((firstProject, secondProject) => firstProject.year - secondProject.year).map((project) => (
+                {projects.filter(project => (project.uni && !project.exersize)).sort((firstProject, secondProject) => new Date(firstProject.date) - new Date(secondProject.date)).reverse().map((project) => (
                         <div>{getCard(project.id)}</div>
                     ))}
                 </div>
                 <div className="Content-subheader">
-                    <p>Exersizes</p>
+                    <p>Training</p>
                 </div>
                 <div className="projects">
-                    {projects.filter(project => project.uni && project.exersize).sort((firstProject, secondProject) => firstProject.year - secondProject.year).map((project) => (
+                    {projects.filter(project => project.exersize).sort((firstProject, secondProject) => new Date(firstProject.date) - new Date(secondProject.date)).reverse().map((project) => (
                             <div>{getCard(project.id)}</div>
                         ))}
                 </div>          
