@@ -7,7 +7,6 @@ import './Projects.css'
 import linkicon from '../../assets/box-arrow-up-right.svg';
 import githubicon from '../../assets/github-mark.png';
 
-
 const Projects = () => {
     return (
         <div>
@@ -28,11 +27,18 @@ const Projects = () => {
                     <p>University projects</p>
                 </div>
                 <div className="projects">
-                {projects.filter(project => project.uni === true).sort((firstProject, secondProject) => firstProject.year - secondProject.year).map((project) => (
+                {projects.filter(project => project.uni && !project.exersize).sort((firstProject, secondProject) => firstProject.year - secondProject.year).map((project) => (
                         <div>{getCard(project.id)}</div>
                     ))}
+                </div>
+                <div className="Content-subheader">
+                    <p>Exersizes</p>
+                </div>
+                <div className="projects">
+                    {projects.filter(project => project.uni && project.exersize).sort((firstProject, secondProject) => firstProject.year - secondProject.year).map((project) => (
+                            <div>{getCard(project.id)}</div>
+                        ))}
                 </div>          
-
             </Container>
         </div>
     )

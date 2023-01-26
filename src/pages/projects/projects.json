@@ -38,6 +38,7 @@
     {
         "id": 3,
         "uni": true,
+        "exersize": true,
         "title": "FilmGuru - React Native",
         "year": 2022,
         "description": "A small mobile application showing top movies based on genres for trying out React Native",
@@ -49,6 +50,7 @@
     {
         "id": 4,
         "uni": true,
+        "exersize": true,
         "title": "FilmGuru - Android",
         "year": 2022,
         "description": "A small mobile application showing movies and details for trying out android programming",
@@ -83,6 +85,7 @@
     {
         "id": 7,
         "uni": true,
+        "exersize": true,
         "title": "The Amazing Todo'er - PWA",
         "year": 2022,
         "description": "A small mobile application for adding and removing to-do's. Exersize in creating a PWA mobile application using React",
@@ -95,6 +98,7 @@
     {
         "id": 8,
         "uni": true,
+        "exersize": true,
         "title": "The Amazing Todo'er - Flutter",
         "year": 2022,
         "description": "A small mobile application for adding and removing to-do's. Exersize in creating a mobile application using Flutter",
@@ -117,6 +121,7 @@
     {
         "id": 10,
         "uni": true,
+        "exersize": true,
         "title": "Flighter",
         "year": 2021,
         "description": "Frontend for an application that will guide thorugh an airport - result of a design sprint. Group project 3rd semester - HCI course",
@@ -129,6 +134,7 @@
     {
         "id": 11,
         "uni": true,
+        "exersize": true,
         "title": "University Administration",
         "year": 2021,
         "description": "Management of departments and courses using the Laravel MVC framework implementing CRUD operations. Assignment of Web Technologies Course",
@@ -140,6 +146,7 @@
     {
         "id": 12,
         "uni": true,
+        "exersize": true,
         "title": "Pet Shelter Auth",
         "year": 2021,
         "description": "Implementation of authentication and authorization features in existing Laravel application. Assignment for Web Technologies Course",

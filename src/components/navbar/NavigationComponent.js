@@ -1,13 +1,15 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import {LinkContainer} from 'react-router-bootstrap';
+
+// Style
+
 import './NavigationComponent.css';
+// Icons
 import linkedIn from '../../assets/in_black.png';
 import github from '../../assets/github-mark.png';
-import {LinkContainer} from 'react-router-bootstrap';
 import resume from '../../assets/download-resume-round.png';
-
-
 
 function NavigationComponent() {
   return (
@@ -16,7 +18,7 @@ function NavigationComponent() {
         <LinkContainer to="/">
           <Nav.Link>
             <Navbar.Brand>Theis Langlands</Navbar.Brand>
-        </Nav.Link>
+          </Nav.Link>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -28,22 +30,19 @@ function NavigationComponent() {
               <Nav.Link>Contact</Nav.Link>
             </LinkContainer>
           </Nav>
-
           <div className="navigation-icons">
-
-          <a href="https://www.linkedin.com/in/theis-langlands-203a7545/" target="_blank" rel="noreferrer">
-            <img className="links" src={linkedIn} alt='LinkedIn link' title="LinkedIn" />
-          </a>
-          <a href="https://github.com/theislanglands" target="_blank" rel="noreferrer">
-            <img src={github} alt='Github link' title="GitHub"/>
-          </a>
-          <a href="documents/CV-Theis_Langlands.pdf" target="_blank" rel="noreferrer">
-            <img className="links" src={resume} alt='Download resume' title="Resume"/>
-          </a>
+            <a href="https://www.linkedin.com/in/theis-langlands-203a7545/" target="_blank" rel="noreferrer">
+              <img className="links" src={linkedIn} alt='LinkedIn link' title="LinkedIn" />
+            </a>
+            <a href="https://github.com/theislanglands" target="_blank" rel="noreferrer">
+              <img src={github} alt='Github link' title="GitHub" />
+            </a>
+            <a href="documents/CV-Theis_Langlands.pdf" target="_blank" rel="noreferrer">
+              <img className="links" src={resume} alt='Download resume' title="Resume" />
+            </a>
           </div>
         </Navbar.Collapse>
       </Container>
-      
     </Navbar>
   );
 }
