@@ -180,6 +180,18 @@
         "tech": [
             "c#", "nunit"
         ]
+    },
+    {
+        "id": 14,
+        "uni": true,
+        "title": "EC-locator",
+        "year": 2023,
+        "date": "2023-6",
+        "description": "Employee locator service for Ecreo A/S using Mircrosoft Graph API. Bachelor project.",
+        "link": "https://www.youtube.com/watch?v=nzBSK1r2NK4",
+        "tech": [
+            "c#", "nunit", "asp.net", "vue", "bootstrap", "api", "mssql"
+        ]
     }
 ]
 
