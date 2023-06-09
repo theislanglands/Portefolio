@@ -18,9 +18,9 @@
         "title": "Personal Portefolio homepage",    
         "year": 2023,
         "date": "2023-1",
-        "description": "Basic webpage, showing my work, created with React to try it out.",
+        "description": "The website, you're currently watching, showing my work, created with React to try it out.",
         "github": "https://github.com/theislanglands/Portefolio",
-        "link": "link URL",
+        "link": "https://tiny-souffle-83a64f.netlify.app/",
         "tech": [
             "javascript", "react", "bootstrap"
         ]
